@@ -1,3 +1,6 @@
 make backend folder
 make index.js & db.js files
 copy template of express and copy to your file, also for mongoose
+
+
+For Security --> use the express validator
