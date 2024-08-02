@@ -24,6 +24,7 @@ const Login = () => {
     }
 
     if (json.success) {
+      localStorage.setItem("authTken", json.authToken);
       navigate("/");
     }
 
